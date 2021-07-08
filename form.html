@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/table.html">Table</a></li>
+                <li><a href="/media.html">Media</a></li>
+                <li><a href="/form.html">Form</a></li>
+                <li><a href="/semantic.html">Semantic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Jamal er ma er pitha</h1>
+    <form action=""> 
+        <p>Name: <input type="text" name="name" id="" placeholder="Enter your name"> </p>
+        <p>Email: <input type="text" name="email" id="" placeholder="Enter your email"> </p>
+        <fieldset>
+            <legend>Select your pitha</legend>
+            <p><label for="Chitoy"><input type="radio" name="Pitha" id="Chitoy">Chitoy</label></p>
+            <p><label for="Vapa"><input type="radio" name="Pitha" id="Vapa">Vapa</label></p>
+            <p><label for="Tell"><input type="radio" name="Pitha" id="Tell">Tell er pitha</label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select your vorta</legend>
+            <p>
+                <lebel for="sorisha" ><input type="checkbox" name="vorta" id="sorisha">sorisha</lebel>
+            </p>
+            <p>
+                <lebel for="begun"><input type="checkbox" name="vorta" id="begun">begun</lebel>
+            </p>
+            <p>
+                <lebel for="sutki"><input type="checkbox" name="vorta" id="sutki">sutki</lebel>
+            </p>
+        </fieldset>
+        <p>
+            Special Instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
